@@ -1,0 +1,436 @@
+*{
+
+    font-family: IBM Plex Sans;
+}
+.pattern
+{
+    right: 20px;
+    display: none;
+}
+.text p 
+{
+    font-weight: lighter;
+}
+.searchBar
+{
+    background-image: url("Images/Vector.png");
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: 5px 5px;
+    text-indent: 2px;
+    width: 360px;
+    font-size: 14px;
+    font-weight: 500;
+background-color: #F2F2F2;
+    box-sizing: border-box;    
+    color: #5C5C5C;
+    outline: none;
+    text-align: left; 
+    /* position: absolute; */
+    right: 500px;
+    
+}
+
+.arow
+{
+    position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 31.77%;
+bottom: 37.5%;
+}
+.searchBar::placeholder
+{
+   
+    /* padding-right: 25px; */
+    width: 290px;
+}
+
+.drop
+{
+    right: 112px;
+    top: 12px;
+    display: flex;
+}
+.drop button
+{
+    
+    font-size:16px;
+    font-weight: 500;
+    padding: 0 1px;
+    color: #2E2E2E;
+   
+}
+
+.hero
+{
+    background: url("Images/Rectangle\ 2.png");
+    background-color: #2F6CE5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* z-index:10; */
+    
+    /* background-attachment: fixed; */
+    /* padding-top: 100px; */
+    /* height: 320px; */
+    height: 400px;
+    /* background-position: cover; */
+    /* padding: 12rem 20rem; */
+
+/* background- */
+
+}
+/* .text
+{
+    /* padding-top: 100px; */
+    
+   /* color: white; */
+.hero nav
+{
+    display: none;
+    justify-content: space-between;
+    z-index: 100;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    right: 30px;
+}
+.ruler
+{
+    position: relative;
+}
+.ruler::before
+{
+    position: absolute;
+    content: '1cccccccc';
+    top: -1px;
+    bottom: 0;
+    left: 0;
+    right: 10px;
+    width: 50%;
+    z-index: 1;
+    height: 8px;
+    background: blue;
+}
+.hero::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;  
+    left: 0;
+    right: 0;
+    /* max-height: 320px; */
+    /* max-width: 100v; */
+    background-image: url("Images/Rectangle\ 3\ \(1\).png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /* background-position: center; */
+
+}
+.back h1
+{
+    font-size: 30px;
+}
+.back p
+{
+    font-weight:100;
+    font-size: 18px;
+}
+.text
+{
+    left: 200px;
+    bottom: 30px;
+}
+  /*  padding-left: 10rem; */
+.Main
+{
+    padding: 0 10rem;
+}
+.list li
+{
+   
+    padding: 0 5px;
+    color:#8A8A8A;
+}
+.icon
+{
+    background-image: url("Images/Vector3.png");
+    font-size: 1rem;
+    
+}
+.btn0
+{
+    display: none;
+}
+.btn1 
+{
+    color: black;
+    background-color:#EDEEF0;
+    font-weight:950;
+    font-size: 15px;
+}
+.btn2
+{
+    background-color: #2F6CE5;
+    color: white;
+}
+.card
+{
+    width: 600px;
+    /* border: 1px solid #8A8A8A; */
+    /* box-shadow: ; */
+}
+.set 
+{
+    display: none;
+    right: 40px;
+    top: 30px;
+    transition: all 1s;
+    font-weight: 400;
+    /* color: black; */
+}
+.set ul li 
+{
+    list-style-type: none;
+}
+.share 
+{
+    background-color: #EDEEF0;
+}
+.btn3
+{
+    width: 100%;
+    color: #E56135;
+    font-size: 10px;
+    font-weight: 900;
+    border: 0.1px solid #A9AEB8;
+}
+.page
+{
+    z-index: 10;
+    background-color:white ;
+    left: 300px; 
+    padding: 1rem 2rem;
+    width: 50%;
+    top: 70px;
+    bottom: 70px;
+    border-radius: 10px;
+    display: none;
+    transition: all 1s;
+   
+}
+.page2
+{
+    z-index: 10;
+    background-color:white ;
+    left: 300px; 
+    padding: 1rem 2rem;
+    top: 70px;
+    bottom: 150px;
+    border-radius: 10px;
+    display: none;
+    transition: all 1s;
+}
+.spn1,.spn
+{
+    cursor: pointer;
+}
+.p1
+{
+    font-size: 13px;
+}
+.page h1,.page2 h1 
+{
+    font-size: x-large;
+    font-weight: bolder;
+    color: black;
+    
+}
+.email ,.pass
+{
+    width: 100%;
+    padding: 10px 6px;
+
+}
+.btn-sb
+{
+    margin: 104px 0;
+    background-color: #2F6CE5;
+    border: none;
+    color: white;
+    font-size: small;
+    width: 90%;
+    margin: 0 auto;
+    padding: 12px 1rem;
+    border-radius: 20px;
+}
+form input
+{
+    border: 1px solid #D9D9DB;
+    padding: 10px 6px;
+    width: 100%;
+}
+.logp
+{
+    font-size: 10px;
+}
+.screen
+{
+    /* background-image: url("Rectangle\ 3\ \(1\).png"); */
+    background-color: black;
+    opacity: 0.6;
+    background-repeat:no-repeat;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    z-index: 5;
+
+}
+.box
+{
+    display: flex;
+}
+.cross
+{
+    right:350px;
+    top: 50px;
+    border-radius: 100%;
+    display: none;
+    z-index: 10;
+}
+.content
+{
+    justify-content: space-between;
+}
+.msg
+{
+    display: none;
+}
+.div-log,.div-log2
+{
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: fixed;
+    bottom: -1000px;
+    /* top: 0; */
+    left: 0;
+    right: 0;
+    z-index:50;
+    transition: all 0.7s;
+    
+}
+.div-input1 
+{
+    display: flex;
+}
+.div-log input,.div-log2 input
+{
+    border: 1px solid #D9D9DB;
+    width: 100%;
+    padding: 10px 6px;
+   
+    
+}
+.sticky
+{
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+.div-log button,.div-log2 button
+{
+    margin: 104px 0;
+    background-color: #2F6CE5;
+    border: none;
+    color: white;
+    font-size: small;
+    width: 35%;
+    margin: 0 auto;
+    padding: 12px 1rem;
+    border-radius: 20px;
+}
+.goto1,.goto2
+{
+    cursor: pointer;
+}
+.h-nav
+{
+    transition: all 1s;
+}
+/* .div-input input
+{
+    width: 66%;
+} */
+.Press
+{
+    background: linear-gradient(#FF5C5C,#F0568A);
+    /* display: none; */
+    padding: 20px;
+    border-radius: 100%;
+    position: fixed;
+    bottom: -5000px;
+    right: 50px;
+}
+.profile
+{
+    position: fixed;
+    display: none;
+    align-items: center;
+    z-index: 10;
+    top: 50px;
+    right: 40px;
+    background-color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.sign-div
+{
+    width: 50%;
+}
+.post-nav
+{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 50px;
+}
+.post
+{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.follower
+{
+    display: none;
+}
+.follower input
+{
+   border: none;
+   outline: none;
+   border-bottom: 1px solid #8A8A8A;
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+.follower p 
+{
+    color: #8A8A8A;
+    font-size: small;
+    margin-bottom: 30px;
+}
+.follow
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 18px;
+}
+.follow button
+{
+    border-radius: 20px;
+    border: none;
+}
